@@ -1,4 +1,23 @@
-DS_Store
-.DS_Store
-.DS_Store
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+.envrc
+*.sqlite3
 
+# VS Code and Pycharm
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Vercel local overrides (optional)
+.vercel/
